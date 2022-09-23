@@ -12,6 +12,8 @@
 		48A66D4528DC59E600E6473E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A66D4428DC59E600E6473E /* Assets.xcassets */; };
 		48A66D4828DC59E600E6473E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A66D4728DC59E600E6473E /* Preview Assets.xcassets */; };
 		48A66D5028DC5B1700E6473E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A66D4F28DC5B1700E6473E /* Home.swift */; };
+		48A66D5528DC758200E6473E /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A66D5428DC758200E6473E /* WaveView.swift */; };
+		48A66D5728DC8DF500E6473E /* TapRippleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A66D5628DC8DF500E6473E /* TapRippleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		48A66D4428DC59E600E6473E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48A66D4728DC59E600E6473E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48A66D4F28DC5B1700E6473E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		48A66D5428DC758200E6473E /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		48A66D5628DC8DF500E6473E /* TapRippleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapRippleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +77,19 @@
 		48A66D4E28DC5AEA00E6473E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				48A66D5328DC752D00E6473E /* wave */,
 				48A66D4F28DC5B1700E6473E /* Home.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		48A66D5328DC752D00E6473E /* wave */ = {
+			isa = PBXGroup;
+			children = (
+				48A66D5428DC758200E6473E /* WaveView.swift */,
+				48A66D5628DC8DF500E6473E /* TapRippleView.swift */,
+			);
+			path = wave;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				48A66D4328DC59E500E6473E /* ContentView.swift in Sources */,
+				48A66D5528DC758200E6473E /* WaveView.swift in Sources */,
+				48A66D5728DC8DF500E6473E /* TapRippleView.swift in Sources */,
 				48A66D5028DC5B1700E6473E /* Home.swift in Sources */,
 				48A66D4128DC59E500E6473E /* Metaball_Animation_DemoApp.swift in Sources */,
 			);
